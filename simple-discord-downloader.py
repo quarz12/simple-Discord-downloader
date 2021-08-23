@@ -13,7 +13,7 @@ from PIL import Image
 from io import BytesIO
 from json import loads
 
-token="MjY1MjA0NTA2ODM5NjEzNDQz.YMuJEQ.-anqH5KVIjrkTWMknU0E1KJrZAM"
+token=""
 
 
 
