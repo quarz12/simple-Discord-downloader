@@ -54,7 +54,7 @@ class Scraper:
         self.snowflake_now= timestampToSnowflake(time.time()) #Make snowflake off current time
         self.apiversion="v9"
         self.query="has=image"
-        self.channels=["516446032196927499"]
+        self.channels=[]
 
     def get_messages(self,channelid):
         return self.get_Messages(self.snowflake_first_message,channelid)
