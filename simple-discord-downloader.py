@@ -95,7 +95,7 @@ class Scraper:
                             print(response.content)
 
     def queue_channel(self, channelids):
-        self.channels.extend(channelids)
+        self.channels.append(channelids)
 
     def get_channel(self, id):
         tmp=loads(self.session.get(f'https://discord.com/api/v9/channels/{id}').content)
